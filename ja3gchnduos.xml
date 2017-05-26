@@ -43,6 +43,6 @@
  * Added pseudo-OTA updates support
  * ja3gchnduos: Fixed RIL but disabled Dual SIM support
  * jalteskt: HOPEFULLY Fixed Calls with no Mobile Data yet
- * jaltelgt: Currently delayed due to connection issues
+ * jaltelgt: HOPEFULLY Fixed RIL
 </Changelog>
 </ROM>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <!-- Your ROM Name -->
-  <RomName>LineageOS 14.1 - ja3gxx</RomName>
+  <RomName>LineageOS 14.1 - jaltelgt</RomName>
   <VersionName>20170526</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
@@ -14,14 +14,14 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl nil="true" />
-  <HttpUrl>https://www.androidfilehost.com/?fid=817550096634766106</HttpUrl>
+  <HttpUrl>https://www.androidfilehost.com/?fid=745425885120734927</HttpUrl>
   <!-- <HttpUrl>HTTP URL HERE</HttpUrl> -->
   <!-- What version are you issuing? -->
   <Android>7.1.2</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
   <CheckMD5 nil="true" />
-  <CheckMD5>8fd97743f3eea30de4c6a908333087bb</CheckMD5>
+  <CheckMD5>27da89ae68588f28898d09962445a98d</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
   <FileSize type="integer">1</FileSize>
@@ -37,6 +37,12 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changelog 20170526
- * Placeholder
+ * FIRST AUTOMATED WEEKLY
+ * Up-to-date LineageOS sources
+ * Fixed camera issues with some apps
+ * Added pseudo-OTA updates support
+ * ja3gchnduos: Fixed RIL but disabled Dual SIM support
+ * jalteskt: HOPEFULLY Fixed Calls with no Mobile Data yet
+ * jaltelgt: HOPEFULLY Fixed RIL
 </Changelog>
 </ROM>
