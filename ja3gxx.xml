@@ -14,14 +14,14 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl nil="true" />
-  <HttpUrl>https://www.androidfilehost.com/?fid=817550096634766106</HttpUrl>
+  <HttpUrl>https://www.androidfilehost.com/?fid=673368273298957691</HttpUrl>
   <!-- <HttpUrl>HTTP URL HERE</HttpUrl> -->
   <!-- What version are you issuing? -->
   <Android>7.1.2</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
   <CheckMD5 nil="true" />
-  <CheckMD5>8fd97743f3eea30de4c6a908333087bb</CheckMD5>
+  <CheckMD5>3c42bbed6b640c8f43205f9cf6e824ed</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
   <FileSize type="integer">1</FileSize>
@@ -37,6 +37,12 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changelog 20170526
- * Placeholder
+ * FIRST AUTOMATED WEEKLY
+ * Updated CM Sources
+ * Fixed camera issues with some apps
+ * Added pseudo-OTA updates support
+ * ja3gchnduos: Fixed RIL but disabled Dual SIM support
+ * jalteskt: HOPEFULLY Fixed Calls with no Mobile Data yet
+ * jaltelgt: Currently delayed due to connection issues
 </Changelog>
 </ROM>
