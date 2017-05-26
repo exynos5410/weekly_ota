@@ -38,7 +38,7 @@
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changelog 20170526
  * FIRST AUTOMATED WEEKLY
- * Updated CM Sources
+ * Up-to-date LineageOS sources
  * Fixed camera issues with some apps
  * Added pseudo-OTA updates support
  * ja3gchnduos: Fixed RIL but disabled Dual SIM support
