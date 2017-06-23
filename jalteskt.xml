@@ -2,11 +2,11 @@
 <ROM>
   <!-- Your ROM Name -->
   <RomName>LineageOS 14.1 - jalteskt</RomName>
-  <VersionName>20170616</VersionName>
+  <VersionName>20170623</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20170616</VersionNumber>
+  <VersionNumber type="integer">20170623</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse * anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an ( * ) ampersand -->
@@ -14,14 +14,14 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl nil="true" />
-  <HttpUrl>https://www.androidfilehost.com/?fid=889764386195909735</HttpUrl>
+  <HttpUrl>https://www.androidfilehost.com/?fid=889764386195911090</HttpUrl>
   <!-- <HttpUrl>HTTP URL HERE</HttpUrl> -->
   <!-- What version are you issuing? -->
   <Android>7.1.2</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
   <CheckMD5 nil="true" />
-  <CheckMD5>e03a8d00673d0fc3e36f08915836744b</CheckMD5>
+  <CheckMD5>832407bb3987db8cacca04bd8cf229ea</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
   <FileSize type="integer">1</FileSize>
@@ -36,7 +36,7 @@
   <DonateURL>http://forum.xda-developers.com/donatetome.php?u=2386505</DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>### Changelog 20170616
+  <Changelog>### Changelog 20170623
  * Up-to-date LineageOS sources
 </Changelog>
 </ROM>
