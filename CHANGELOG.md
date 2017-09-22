@@ -1,88 +1,147 @@
 
-git://github.com/exynos5410/android_device_samsung_ja3gduosctc
+git://github.com/LineageOS/android
 
 Changes
-- ja3gduosctc: Restore OTA support
-- Merge pull request #2 from Pohrom/master
-- Merge pull request #1 from exynos5410/cm-14.1
-- fix acceptCall in SamsungLegacyRIL
-- Merge pull request #1 from Pohrom/master
+- Switch deqp, pdfium and speex to our forks
+- cm: Remove libphonenumbergoogle
+- manifest: switch to our forks of several repos
+
+git://github.com/LineageOS/android_build
+
+Changes
+- Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES
+- Updating Security String to 2017-09-05 Bug:63846344
+
+git://github.com/LineageOS/android_external_libavc
+
+Changes
+- Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.
+- Decoder: Fixed overflow in refernce list creation.
+- Initialize DPB structures to valid values.
+- Added error check for output buffer size.
+
+git://github.com/LineageOS/android_external_libhevc
+
+Changes
+- Limit boundary PU sizes in case of errors
+- Fix array size for hrd parameters
+- Check number of output buffers and sizes
+- Return error for invalid crop parameters
+
+git://github.com/LineageOS/android_external_sonivox
+
+Changes
+- Fix compiler warnings in sonivox and enable -Werror.
+- Fix interpolator
+
+git://github.com/LineageOS/android_frameworks_av
+
+Changes
+- audioflinger: Use offloaded effects in case of PCM offload
+- MPEG4Source: fix fragmented read.
+- stagefright: fix crash due to bad timestamp index
+- stagefright: check aac_frame_length to prevent infinite loop
+- MediaPlayerService: fix access of mPlayer in client
+- audio effects: filter reserved effect commands
+- MPEG4Extractor: ensure returned status is checked.
+- DO NOT MERGE Check frame handle validity before freeing buffer.
+- Change MPEG2 reinit Error Handling
+- Track: Check buffer size of static tracks
+- MPEG4Extractor: check size for yrrc box
+- AudioFlinger: Fix memory allocation for client-less tracks
+- Notify Errors Appropriately from SoftMPEG2
+- EffectBundle: Check value size for get preset name
+- Fix TOCTOU problem in libstagefright_soft_aacenc
 
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
+- Automatic translation import
+- SystemServer: Don't start widget service when it is alarm boot
+- ActivityManager: Remove POWER_OFF_ALARM intent leftover
+- Always hide protected apps from the recent tasks list
+- Recents: Add accessibility descriptions for lock ImageViews
+- SystemUI: Add separate pref screen for the status bar tuner
+- SystemUI: Revert some Tuner changes
+- Back-port fixes for b/62196835
 
-git://github.com/LineageOS/android_hardware_qcom_audio
-
-Changes
-- msm8937: hal: Support custom mixer_paths file names
-- policy_hal: Don't fill in offload information for unsupported streams
-- msm8937: acdb: Make acdb reloading optional
-- ssr: Fix building with OSS materials
-- msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
-- msm8996: audio: Add l/r mic swapping when using stereo mics
-- Add special case for stereo camcorder
-- hal: Featureize APE/VORBIS/WMA offload support
-- audio policy: fix capture indication to sound trigger service.
-- hal: Don't try to record using 3-mic unless we mean it
-- hal: Haxed header
-- audio: Fix flac offload not working
-- hal: Fix build with HDMI disabled
-- audio: Fix complilation warnings under Clang
-- msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
-- audio: Extend platform parser to allow device name aliasing
-- hal: post_proc: enabled / disable volume listener based on prop
-- hal: Support the audio amplifier hook
-- audio: Use direct project pathmap
-
-git://github.com/LineageOS/android_hardware_qcom_display
+git://github.com/LineageOS/cve_tracker
 
 Changes
-- display: Fix ColorMetaData
-- display-caf: msm8996: Use ColorMetaData in SDM in hwc2
-- display-caf: 8996: Add color metadata to libgralloc1
-- hwc2: Only set display_width and display_height when equal to zero
-- hwc2: Handle empty lists in AcceptDisplayChanges
-- msm8996: hwc2: check for null layers in layer map
-- hwc2 : Fix layer updating flag
-- gralloc: Return an error if the buffer was not mapped
-- Revert "Revert "gralloc: Default to 601 color space""
-- hwc2: Workaround use after free by surfaceflinger
-- hwc2: Update composition types on AcceptDisplayChanges
-- Revert "gralloc: Default to 601 color space"
-- gralloc: Disable UBWC for writeback buffers
-- hwc2: Initialize color mode to native
-- hwc2 : Allow only top most cursor layer
-- Revert "gralloc: Return an error if the buffer was not mapped"
-- hwc2: Fix solid fill
-- sdm:hwc2: Store higher order mode id in case of clash
-- gralloc: Return an error if the buffer was not mapped
-- hwc2: Fix retire fences
-- hwc2: Always store a release fence if a layer is presented
-- hwc2: Use current frames retire fence only for the primary
-- 8996/HWC2: Return this frame's retire fence
-- hwc2: Remove default mode application at boot.
-- hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
-- hwc: Set ioprio for vsync thread
-- Fix duplicate copy file rules
-- Don't build lights module if vendor supplies it
-- display: Use project pathmap
-
-git://github.com/LineageOS/android_hardware_qcom_media
-
-Changes
-- Fix duplicated OMX.qcom.audio.decoder.aac entry
-- media: libOmxSw encoders require prop headers :(
-- mm-video: Disable proprietary extension
-- venc: Fix VQZip issue
-- media: Avoid collision with FFMPEG plugin
-- media: Use project pathmap
+- logs: cast pages number to int
+- api: v1: implement GET kernels/repo_name/cve_name
+- api: v1: implement GET cves/cve_name
+- api: v1: implement GET kernels/repo_name
+- api: v1: implement GET CVEs
+- api: v1: implement GET kernels
 
 git://github.com/LineageOS/hudson
 
 Changes
-- hudson: add LG L90 (w7)
-- hudson: pull v20s (h910 vs995 us996 ls997)
-- Revert "Pull v521"
+- Add Sony Xperia Z3+ (ivy)
+- hudson: reenable v20s (h910 h918 vs995 us996 ls997)
+- hudson: Add Sony fusion3 devices
+
+git://github.com/LineageOS/lineageos_updater
+
+Changes
+- updater: add Galaxy J7 (j7ltespr)
+- updater: Add the Sony Xperia Z3+ (ivy)
+- Add v400
+
+git://github.com/LineageOS/lineage_wiki
+
+Changes
+- faq: fix updater download location
+- devices: Add Sony Xperia Z3+ (ivy)
+- wiki: Add Sony fusion3 devices
+
+git://github.com/LineageOS/android_packages_apps_CMParts
+
+Changes
+- Automatic translation import
+- CMParts: Update intent to start the status bar preferences
+
+git://github.com/LineageOS/android_packages_apps_Eleven
+
+Changes
+- Automatic translation import
+- Eleven: Create one cursor per background task
+
+git://github.com/LineageOS/android_packages_apps_Messaging
+
+Changes
+- Automatic translation import
+- 37742976 - Catch bad gifs
+
+git://github.com/LineageOS/android_packages_apps_Nfc
+
+Changes
+- Automatic translation import
+- Add READ_EXTERNAL_STORAGE for file based Uri while beaming.
+
+git://github.com/LineageOS/android_packages_apps_Settings
+
+Changes
+- Automatic translation import
+- AppOpsState: Hide undeclared Privacy Guard OPs
+- Back-port ag/2491664
+
+git://github.com/LineageOS/android_vendor_cm
+
+Changes
+- extract_utils: implement LOCAL_MODULE_RELATIVE_PATH
+- cm/aosp/cafremote: Make variables local
+- envsetup: Fix cmremote for AOSP projects
+- cm: Add CMSettings package to power_off_alarm_apps
+
+git://github.com/LineageOS/cm_platform_sdk
+
+Changes
+- Revert "cmsdk: Don't change ring volume or mode if DND is enabled"
+- Automatic translation import
+- cmsdk: Run in core apps only for poweroff alarm boot
+- Make CMParts a protected component manager
+- cmsdk: Don't change ring volume or mode if DND is enabled
