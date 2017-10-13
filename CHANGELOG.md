@@ -1,66 +1,44 @@
 
-git://github.com/LineageOS/android
-
-Changes
-- manifest: track our own dnsmasq and libmpeg2
-- manifest: use updated svox tag to fix picotts
-
-git://github.com/LineageOS/android_build
-
-Changes
-- [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
-- [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
-
-git://github.com/LineageOS/android_external_dnsmasq
-
-Changes
-- Add extra (size_t) cast to avoid compiler warning.
-- Make dnsmasq more stable.
-
-git://github.com/LineageOS/android_external_libhevc
-
-Changes
-- Fix slice decrement for skipped slices
-- Ensure CTB size > 16 for clips with tiles and width/height >= 4096
-
-git://github.com/LineageOS/android_frameworks_av
-
-Changes
-- Fix 'potential memory leak' compiler warning.
-- Check buffer size in useBuffer in software components
-- stagefright: avoid buffer overflow in base64 decoder
-- Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
-- Fix memory leak in OggExtractor
-- Skip track if verification fails
-
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- Fix security hole in GateKeeperResponse.
-- Enforce policy for camera gesture in keyguard
-- SystemUI: Cleanup BatteryMeter
-- SystemUI: Improve battery icons
-- Revert "Camera: ignore torch status update for aux or compsite camera"
+- Core: Battery warning levels are inclusive, not exclusive
 
-git://github.com/LineageOS/android_libcore
+git://github.com/exynos5410/android_kernel_samsung_exynos5410
 
 Changes
-- Fix failing FileTest#test_canonicalCachesAreOff()
-- Disable File.getCanonicalPath caches.
-
-git://github.com/LineageOS/lineageos_updater
-
-Changes
-- updater: improve changelog link wording
-- updater: link to wiki pages on device download page
-- Regenerate device dependency mappings
+- ipx: call ipxitf_put() in ioctl error path
+- Bluetooth: Properly check L2CAP config option output buffer length
+- net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds
+- Prevent potential double frees in sg driver
+- net: wireless: bcmdhd: adding boundary check in wl_notify_rx_mgmt_frame
+- net: wireless: bcmdhd: adding boudary check in wl_escan_handler
+- net: wireless: bcmdhd: fix buffer overrun in wlfc reordering
+- net: wireless: bcmdhd: Heap overflow in wl_run_escan
+- net: wireless: bcmdhd: fix buffer overrun in wl_cfg80211_add_iw_ie
+- fs/exec: fix use after free in execve
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- devices: add custom twrp links for lux, merlin, and otus
-- wiki: Adjusted us996 for US Unlocked vs. GSM Unlocked
-- templates: allow devices to specify a custom twrp link
-- wiki: ride off into the sunset
+- wiki: recommend Linux LTS versions for new users
+- g2m: Add custom TWRP link
+- templates: Link directly to TWRP device download list
+- templates: allow devices to specify a custom twrp codename
+- cherry/che10: Point TWRP download page to xda
+- addison: Add custom TWRP link
+
+git://github.com/LineageOS/android_packages_apps_Gallery2
+
+Changes
+- Gallery: Kill media effect dialog on movies
+- Gallery2: Fix crash when muting a video
+- Fix gallery crash when trimming video
+
+git://github.com/exynos5410/proprietary_vendor_samsung
+
+Changes
+- exynos5410-common: Make libsecnativefeature common
+- Revert "ja3gxx: Switch to prebuilt RIL blobs"
