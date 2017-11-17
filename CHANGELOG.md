@@ -4,7 +4,8 @@ git://github.com/LineageOS/android_frameworks_base
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- Add powerhint function that accepts an array of data
+- Add stub for setCursorVisibility
+- Prevent deadlock when using always-on legacy VPNs
 
 git://github.com/LineageOS/android_hardware_samsung
 
@@ -16,25 +17,28 @@ Changes
 git://github.com/LineageOS/hudson
 
 Changes
-- Rebalance hudson targets 37/37/37/36/36 (183)
-- RIP Peach
-- hudson: Ship weeklies for tenshi
+- hudson: Rebalance targets
+- Readd herolte and hero2lte
+- builds: we now build 7 days a week
+- Also remove himawl
+- Remove devices with outstanding bugs.
 
-git://github.com/LineageOS/android_packages_apps_Recorder
+git://github.com/LineageOS/lineage_wiki
 
 Changes
-- Recorder: Add possibility to delete last recording from notification
-- Recorder: Fix wrong denial message in Recorder
-- Recorder: fix a string
-- Recorder: don't allow multiple instances of the app
-- Recorder: Start recording after giving permissions
-- Recorder: Fix permission request texts
-- Recorder: update UI
-- Recorder: start overlay service as not sticky
-- Recorder: add constraint-layout aar lib for aosp build env
+- faq: add entry about alternative download options
+- wiki: ensure users have a valid contributor agreement
+- hlte*: Update maintainers
+- devices: Mark peach as discontinued
+
+git://github.com/LineageOS/android_packages_apps_Settings
+
+Changes
+- AppOps: Add info if app doesn't request any blockable permissions
+- AppOps: Add icon for "Toggle cellular data"
 
 git://github.com/LineageOS/android_vendor_cm
 
 Changes
-- build: Make eat use the latest zip in $OUT
-- Added more USA sensitive phone numbers
+- cm: build: kernel: Rework kernel module logic
+- extract_utils: Fix pinning when not cleaning vendor dir
