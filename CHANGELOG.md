@@ -4,27 +4,40 @@ git://github.com/LineageOS/android_frameworks_base
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- SystemUI: Fix title text clipping when task lock button is visible
-- ZenModeHelper: Allow lights by default
-- fw/b: Return a KeyEvent instead of a boolean in KeyHandler
 
-git://github.com/LineageOS/hudson
+git://github.com/LineageOS/slackbot
 
 Changes
-- Remove h811
-- hudson: Remove wt88047
+- jira: use unicode_literals, only announce if prefix is given
+- jira; sync announcement messages to jira
+
+git://github.com/LineageOS/lineageos_updater
+
+Changes
+- Include size on downloads page
+- configurize upstream API/download base URLs
+- use arrow for time parsing
+- Rename exception file so it won't conflict with builtin
+- Return empty string for favicon path because browsers are bad
+- Redo upstream calls, be more efficient with caches
+- Include basic error handling for unknown devices
+- device template: remove extraneous slash
+- device: use the file path to link to the file...
+- updater: show newest builds on top for device pages
+- updater: use new mirrorbits api
+- remove python package
+
+git://github.com/LineageOS/www
+
+Changes
+- Fix URL formatting in Changelog 15
+- Changelog 15
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- paella: fix links to twrp
-- wiki: Clarify which klte* build is for which model
-
-git://github.com/LineageOS/android_packages_apps_CMParts
-
-Changes
-- CMParts: gestures: Update KeyHandler for API change
-- CMParts: gestures: Add volume down/up actions
+- wiki: Remove myself
+- serrano: Add custom TWRP links
 
 git://github.com/LineageOS/android_packages_apps_Settings
 
@@ -39,5 +52,5 @@ Changes
 git://github.com/LineageOS/android_vendor_cm
 
 Changes
-- repopick: Support overriding the default commits count to check
-- vendor: enable multi-user across all devices
+- ATV: Ship AppDrawer
+- extract_utils: Use temporary folder for system dump
