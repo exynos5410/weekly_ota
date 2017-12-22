@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ROM>
   <RomName>LineageOS 14.1 - ja3gxx</RomName>
-  <VersionName>lineage-14.1-20171208-UNOFFICIAL-WEEKLY-ja3gxx.zip</VersionName>
-  <VersionNumber type="integer">20171208</VersionNumber>
-  <DirectUrl>https://basketbuild.com/uploads/devs/Alberto96/lineage-14.1-20171208-UNOFFICIAL-WEEKLY-ja3gxx.zip</DirectUrl>
+  <VersionName>lineage-14.1-20171222-UNOFFICIAL-WEEKLY-ja3gxx.zip</VersionName>
+  <VersionNumber type="integer">20171222</VersionNumber>
+  <DirectUrl>https://basketbuild.com/uploads/devs/Alberto96/lineage-14.1-20171222-UNOFFICIAL-WEEKLY-ja3gxx.zip</DirectUrl>
   <HttpUrl nil="true"/>
   <Android>7.1.2</Android>
   <CheckMD5 nil="true"/>
-  <CheckMD5>73b4b30d8a9694507cb7dac9fef5b8d0</CheckMD5>
-  <FileSize type="integer">324954491</FileSize>
+  <CheckMD5>be24abf88ded88ca3ca1680db4d03ffe</CheckMD5>
+  <FileSize type="integer">324094665</FileSize>
   <Developer>GearLabs: Alberto96</Developer>
   <WebsiteURL>https://forum.xda-developers.com/galaxy-s4/i9500-orig-develop/rom-lineageos-14-1-samsung-galaxy-s4-t3586561</WebsiteURL>
   <DonateURL>http://forum.xda-developers.com/donatetome.php?u=2386505</DonateURL>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ROM>
   <RomName>LineageOS 14.1 - jalteskt</RomName>
-  <VersionName>lineage-14.1-20171208-UNOFFICIAL-WEEKLY-jalteskt.zip</VersionName>
-  <VersionNumber type="integer">20171208</VersionNumber>
-  <DirectUrl>https://basketbuild.com/uploads/devs/Alberto96/lineage-14.1-20171208-UNOFFICIAL-WEEKLY-jalteskt.zip</DirectUrl>
+  <VersionName>lineage-14.1-20171222-UNOFFICIAL-WEEKLY-jalteskt.zip</VersionName>
+  <VersionNumber type="integer">20171222</VersionNumber>
+  <DirectUrl>https://basketbuild.com/uploads/devs/Alberto96/lineage-14.1-20171222-UNOFFICIAL-WEEKLY-jalteskt.zip</DirectUrl>
   <HttpUrl nil="true"/>
   <Android>7.1.2</Android>
   <CheckMD5 nil="true"/>
-  <CheckMD5>3f1b78b47372e0b6a963f78e9848a19d</CheckMD5>
-  <FileSize type="integer">325842655</FileSize>
+  <CheckMD5>b722b48e369dd53111b22436863dfec4</CheckMD5>
+  <FileSize type="integer">325055768</FileSize>
   <Developer>GearLabs: Alberto96</Developer>
   <WebsiteURL>https://forum.xda-developers.com/galaxy-s4/i9500-orig-develop/rom-lineageos-14-1-samsung-galaxy-s4-t3586561</WebsiteURL>
   <DonateURL>http://forum.xda-developers.com/donatetome.php?u=2386505</DonateURL>
