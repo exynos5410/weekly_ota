@@ -1,47 +1,37 @@
 
+git://github.com/LineageOS/android_external_toybox
+
+Changes
+- strings tests and bugfixes
+- "printf %x 64" wasn't working right on 32 bit because a variable type was wrong.
+
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- livedisplay: Allow tile creation before boot completed phase [2/2]
-- SystemUI: Fix crash when taking screenshot in partial screenshot view
-- GlobalActions: Misc power menu cleanup
-- GlobalActions: Fix setting ringer mode in global actions
-- fw: GlobalActions: Always dismiss any existing dialog
-- The DUT can't screen shot in guest mode
+- SystemUI: Fix LiveDisplay tile off color
 
 git://github.com/LineageOS/android_hardware_samsung
 
 Changes
-- audio: Fix BT sample rate handling properly
-- Revert "audio: Always use 16kHz sampling for SCO"
+- audio: Directly link voice data <-> session
+- Added another new Murata MAC range
+- audio: Print error in case of nonexistant mixer paths
 
-git://github.com/LineageOS/mirror
+git://github.com/LineageOS/hudson
 
 Changes
-- Updated to 23-Jan-2018 21:31:14 UTC
-- Updated to 19-Jan-2018 21:31:14 UTC
+- updater: Add Samsung Galaxy S6 Edge (zeroltexx)
+- hudson: Add Samsung Galaxy S6 Edge (zeroltexx)
+- Regenerate device dependency mappings
+- hudson: Retire Z00A and Z008
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- search: improve search entry of device info pages
-- pages: fix file modes
-- pages: info: remove useless comment
-- pernicious mispelling
-- harpia: Mark battery as removable
-- devices: Update maintainers for LG G5/G6/V20
-
-git://github.com/LineageOS/android_packages_apps_Jelly
-
-Changes
-- Jelly: Set correct webview visibility on Show/Hide CustomView
-- Jelly: add dialog to show SSL certificate info
-
-git://github.com/LineageOS/android_vendor_cm
-
-Changes
-- Added Cape Verde carrier CVMóvel default APN as configured by sales agents
-- Add APN for iD Mobile UK MVNO
-- envsetup: Clean up for install[boot|recovery]
+- Add info for the Samsung Galaxy S6 Edge
+- bacon: remove myself from maintainers
+- pages: Fix path to key migration script
+- wiki: discontinue Z00A & Z008
+- wiki: Winter cleanup
