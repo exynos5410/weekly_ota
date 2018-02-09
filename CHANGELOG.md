@@ -1,37 +1,56 @@
 
-git://github.com/LineageOS/android_external_toybox
-
-Changes
-- strings tests and bugfixes
-- "printf %x 64" wasn't working right on 32 bit because a variable type was wrong.
-
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- SystemUI: Fix LiveDisplay tile off color
+- Automatic translation import
 
 git://github.com/LineageOS/android_hardware_samsung
 
 Changes
-- audio: Directly link voice data <-> session
-- Added another new Murata MAC range
-- audio: Print error in case of nonexistant mixer paths
+- dtbhtool: Print better warnings for PLATFORM/SUBTYPE mismatch
+- Automatic translation import
+- dtbhtool: implement unpackdtbhimg
+
+git://github.com/LineageOS/cm_crowdin
+
+Changes
+- config: Fix OpenWeatherMap location
+- Revert "config: 14.1: Add Snap camera2arrays"
 
 git://github.com/LineageOS/hudson
 
 Changes
-- updater: Add Samsung Galaxy S6 Edge (zeroltexx)
-- hudson: Add Samsung Galaxy S6 Edge (zeroltexx)
+- hudson: Build tulip
+- updater: Add ZTE Axon 7 Mini (tulip)
 - Regenerate device dependency mappings
-- hudson: Retire Z00A and Z008
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- Add info for the Samsung Galaxy S6 Edge
-- bacon: remove myself from maintainers
-- pages: Fix path to key migration script
-- wiki: discontinue Z00A & Z008
-- wiki: Winter cleanup
+- Wiki: add tulip (Axon 7 Mini)
+- Remove hypenation on device info table
+- Adapt device_info template to new schema
+- wiki: Adding a device: Explain schemas
+- wiki: Add validation for peripherals
+
+git://github.com/LineageOS/android_packages_apps_Gallery2
+
+Changes
+- Automatic translation import
+- Gallery: Fix translatability of CAF additions to filtershow
+- Gallery2: Remove more CAF Chinese translation modifications
+
+git://github.com/LineageOS/android_packages_apps_Snap
+
+Changes
+- Automatic translation import
+- Automatic translation import
+- Snap: Fix translatability issues
+
+git://github.com/LineageOS/android_vendor_cm
+
+Changes
+- cm: Allow IPv6 on roaming for T-Mobile US APNs
+- cm: Consolidate T-Mobile US APNs
