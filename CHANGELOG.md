@@ -4,26 +4,32 @@ git://github.com/LineageOS/android_frameworks_base
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
+- Automatic translation import
 
-git://github.com/LineageOS/android_hardware_qcom_audio
-
-Changes
-- hal: Fix soft reboots due to proximity sensor
-- msm8998: ultrasound: Initial open source hal for Elliptic Ultrasound
-
-git://github.com/LineageOS/android_hardware_samsung
+git://github.com/LineageOS/android_hardware_qcom_display
 
 Changes
-- ril: Add support for imsType parcel member
-- ril: Add support for roamingProtocol parcel member
+- Fix duplicate copy file rules
+- hwc: Set ioprio for vsync thread
+- tonemapper: Depend on kernel headers
+
+git://github.com/LineageOS/cm_crowdin
+
+Changes
+- config: 15.1: Move FMRadio resources out of AOSP project
+- config: Add missing FMRadio resources
+- config: cm-14.1: Add missing packages to AOSP project
+- crowdin: Initial changes for 15.1
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- Add blunden as co-maintainer for lithium
-- wiki: Add chiron & sagit
-- Add custom TWRP links for cyngn msm8916 devices
-- Update TWRP links for OPPO msm8939 devices
-- wiki: Better format for release date
-- wiki: fixup dockerfile, add deployment dockerfile for use with quay
-- zl1: add LEX722
+- wiki: remove myself from land maintainers
+- update cheeseburger
+- Add git date and author subcommands to submitting-patches guide
+
+git://github.com/LineageOS/android_packages_apps_Contacts
+
+Changes
+- Contacts: Don't crash if Blocked Number Storage is disabled
+- Automatic translation import
