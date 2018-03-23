@@ -8,5 +8,9 @@ Changes
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- wiki: Add Lenovo P2 (kuntao)
-- wiki: Add OpenGApps for Lineage 15.1
+- Fix inverted logic for fastboot requirement
+- klte variants: Fix TWRP codename/link
+- n2awifi: Fix incorrect ammount of RAM
+- wiki: Promote Nexus Player to 15.1
+- wiki: add initial LineageSDK documentation
+- wiki: Fix syntax highlighting
