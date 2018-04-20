@@ -5,26 +5,39 @@ Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
 
-git://github.com/LineageOS/www
+git://github.com/LineageOS/android_hardware_qcom_media
 
 Changes
-- April response
-- Explain Google Play Certification
+- mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports
+- mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port
 
-git://github.com/LineageOS/lineage_wiki
-
-Changes
-- Add maintainer for gts28vewifi
-- Promote foster to 15.1
-- hammerhead: fix boot mode information
-
-git://github.com/LineageOS/android_vendor_cm
+git://github.com/LineageOS/android_hardware_qcom_media
 
 Changes
-- Fix Android "Work Profiles" also known as AfW 'Android for Work'
-- build: dt_image: support prebuilt DT images
-- write_makefiles: fix paths in BUILD_PREBUILT with destination
-- repopick: Allow to pick changes by URL
-- repopick: Actually print the patchset number
-- repopick: Ignore the trailing slash in change numbers
-- repopick: Try to keep the changes sorted
+- mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports
+- mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port
+
+git://github.com/LineageOS/cve_tracker
+
+Changes
+- cve_tracker: Take offline
+- Regenerate kernel->device mappings
+
+git://github.com/LineageOS/hudson
+
+Changes
+- hudson: Add Mi Note 2 (scorpio)
+- Revert "hudson: Pull nightlies for OP2"
+- Regenerate device dependency mappings
+
+git://github.com/LineageOS/scripts
+
+Changes
+- lineage-push: Don't use shell=True
+- lineage-push: Add hashtag support
+- lineage-push: Add message support
+- lineage-push: Rename --merge to --bypass
+- lineage-push: Add WIP support
+- lineage-push: Add private support
+- lineage-push: Add support for bool parameters
+- lineage-push: Convert to python
