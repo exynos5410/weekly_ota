@@ -1,28 +1,27 @@
 
+git://github.com/LineageOS/android_external_icu
+
+Changes
+- icu: update timezone data to tzdata2018e
+- icu: update ICU timzeone data to Android trunk
+- icu: update timezone code for ICU to support tzdata >= 2017c
+
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- Use calling user ID when calling isDeviceLocked
-- Automatic translation import
+
+git://github.com/LineageOS/hudson
+
+Changes
+- hudson: Add tissot and update mido to lineage-15.1
+- hudson: Promote hiae to 15.1
+- Regenerate device dependency mappings
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- Revert "recovery_install_heimdall: flash recovery to BOOT and RECOVERY partition"
-- wiki: Mark HTC One M9 (himaul himawl) as discontinued
-- wiki: Mark 13.0 devices as discontinued
-- wiki: Remove Droid Incredible (fireball) leftovers
-
-git://github.com/LineageOS/android_packages_apps_CMParts
-
-Changes
-- Parts: make volume button re-orient functionality act based on relevant input
-- Automatic translation import
-
-git://github.com/LineageOS/android_packages_apps_Dialer
-
-Changes
-- Dialer: Fix possible NPE
-- Automatic translation import
+- hiae: Update hiae info
+- wiki: Add tissot (MI A1)
+- wiki:Update i9100 battery info
