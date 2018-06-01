@@ -4,22 +4,19 @@ git://github.com/LineageOS/android_frameworks_base
 Changes
 - improve compatibility when compiling with clang
 - DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
-- Add NETWORK_STACK permission
-- Copy PermissionChecker from support lib and use in RcognitionService
-- Fixed Security Vulnerability of DcParamObject
-- Add permission check to setAllowOnlyVpnForUids
-- Verify last array's length in readFromParcel
-- Update internal ViewPager's SavedState to match Support Library version
+- Fix gear not showing when rotation or RTL changed
+- SystemUI: Network Traffic [1/3]
+- SystemUI: Add CM statusbar item holder
 
-git://github.com/LineageOS/hudson
+git://github.com/LineageOS/www
 
 Changes
-- Remove tissot
-- Remove herolte/hero2lte
+- Drop jekyll-rss
+- categorize blog posts
+- Changelog 18
 
-git://github.com/LineageOS/lineage_wiki
+git://github.com/LineageOS/cm_platform_sdk
 
 Changes
-- Mark herolte and hero2lte as discontinued
-- Remove LineageOS 13.0 from the contributors page
-- wiki: Remove tissot
+- cmsdk: Add Network Traffic [2/3]
+- cmsdk: Add CMStatusBarItem interfaces
