@@ -1,51 +1,42 @@
 
-git://github.com/LineageOS/android_frameworks_av
+git://github.com/exynos5410/android_device_samsung_exynos5410-common
 
 Changes
-- EffectsFactory: add debug and trace wrappers for NXP LifeVibes
-- Add check preventing div0 issue
-- Sanitize effect descriptors for AudioPolicyService binder calls.
-- Init gain config to prevent uninit leak.
+- Merge pull request #4 from Dracanrage/cm-14.1
+- exynos5410-common:Introduce Ambient Mode and SamsungDoze.
 
-git://github.com/LineageOS/android_frameworks_opt_telephony
+git://github.com/LineageOS/android_frameworks_base
 
 Changes
-- Fixed invalid pdu issue
-- Telephony: Fix "Keep preferred SMS Sim"
-
-git://github.com/LineageOS/android_hardware_samsung
-
-Changes
-- libsecril-client: provide req_id for SendOemRequestHook errors
-- audio: Re-worked sound pre- and post-processing
+- Fix wrong peek height of the notification panel
+- Fix the "Alarm volume" icon is displayed incorrectly
+- improve compatibility when compiling with clang
+- DO NOT MERGE "[PATCH] Zygote: Stop breaking the entire system"
 
 git://github.com/LineageOS/hudson
 
 Changes
-- Regenerate device dependency mappings
-- Add mt2
-
-git://github.com/LineageOS/www
-
-Changes
-- Trust me, I'm an engineer
-- Engineering layout
+- hudson: Promote kccat6/lentislte to 15.1
+- Unify find7s with find7 and promote to 15.1
+- [bey-kuh n]
+- Mix up Oreo
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- wiki: mt2: Ressurect
-- wiki: Remove required_bootloader from zero devices
-- x2: update maintainers
+- devices: Minor fixes for Xiaomi MSM8996 Pro devices
+- bardock: Fixup some bad device specs info
+- wiki: Add BQ bardock/bardockpro devices
+- wiki: Update kccat6/lentislte to 15.1
+- Unify find7s with find7 and promote to 15.1
+- Promote bacon to 15.1 and update device info
+- crackling, klte, lux: add physical dimensions
+- verifying_builds: Update keytool command
+- devices: add missing 'mm' to device sizes
+- Mix up Oreo
 
-git://github.com/LineageOS/android_packages_apps_Dialer
+git://github.com/LineageOS/android_packages_apps_Jelly
 
 Changes
-- InCallUI: Refactor primary call info card
-- Automatic translation import
-
-git://github.com/LineageOS/android_packages_providers_MediaProvider
-
-Changes
-- Rework thumbnail cleanup
-- Fix deadlock in MediaProvider
+- Jelly: Show a Snackbar when removing an HistoryItem
+- Jelly: add option to remove identifying headers
