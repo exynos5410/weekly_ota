@@ -1,10 +1,4 @@
 
-git://github.com/exynos5410/android_device_samsung_exynos5410-common
-
-Changes
-- Merge pull request #4 from Dracanrage/cm-14.1
-- exynos5410-common:Introduce Ambient Mode and SamsungDoze.
-
 git://github.com/LineageOS/android_frameworks_base
 
 Changes
@@ -16,24 +10,25 @@ Changes
 git://github.com/LineageOS/hudson
 
 Changes
-- hudson: Promote kccat6/lentislte to 15.1
-- Unify find7s with find7 and promote to 15.1
-- [bey-kuh n]
-- Mix up Oreo
+- hudson: Promote Z00L & Z00T to 15.1
+- Remove serrano3gxx/serranodsdd/serranoltexx
+- hiae: Unlist hiae
+- hudson: Add nash in devices json
+- hudson: Ship Moto Z2 Force (nash)
+- hudson: Rebalance 15.1 builds
 
 git://github.com/LineageOS/lineage_wiki
 
 Changes
-- devices: Minor fixes for Xiaomi MSM8996 Pro devices
-- bardock: Fixup some bad device specs info
-- wiki: Add BQ bardock/bardockpro devices
-- wiki: Update kccat6/lentislte to 15.1
-- Unify find7s with find7 and promote to 15.1
-- Promote bacon to 15.1 and update device info
-- crackling, klte, lux: add physical dimensions
-- verifying_builds: Update keytool command
-- devices: add missing 'mm' to device sizes
-- Mix up Oreo
+- wiki: Add Adreno 508 to GPUs list
+- wiki: Promote Z00L and Z00T to 15.1 & update device info
+- Mark herolte/hero2lte as maintained
+- wiki: Add template for A/B recovery installation
+- test: allow redirects in device templates
+- wiki: use github as image host for CI
+- wiki: Add the "Update recovery" solution for Error 7 to the FAQ
+- devices: Additional fixes for 820/821 devices
+- Update contributors list
 
 git://github.com/LineageOS/android_packages_apps_Jelly
 
